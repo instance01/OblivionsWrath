@@ -6,7 +6,7 @@ body {
 	-ms-transition: background 0.5s linear;
 	-o-transition: background 0.5s linear;
 	transition: background 0.5s linear;
-	background: url(tt.png) no-repeat center center fixed; 
+	background: url(t.png) no-repeat center center fixed; 
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
@@ -23,11 +23,20 @@ hr {
 }
 
 .logo{
-    position: absolute;
-    top: 0; bottom:0; left: 0; right:0;
-    margin: auto;
 	width: 50%;
-	cursor: pointer;
 }
 
+.sidebar{
+	background-color: transparent!important;
+	color: #FFFFFF!important;
+}
+
+.main{
+	margin-left: 10px!important;
+}
+
+.popup{
+	z-index: 10000000000000!important;
+	position:relative;
+}
 
